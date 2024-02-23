@@ -4,6 +4,8 @@ This is a schedule creator for my colleagues. We work as a team of 8 (maximum). 
 
 We refer to taking live help desk tickets as being "on ADD" and when we are working on other duties we are "off ADD" which you will see below. This schedule accomodates for 8 of us, and works with partial days, our colleagues being out, or a "custom" shift if a specific team member has a unique schedule.
 
+The team can input their preferred lunch and break time, however if this does not "optimize" the schedule, they will be overwritten. An "optimized" schedule means that we have enough representatives covering the help desk at each time.
+
 # Libraries
 - datetime
 - numpy
@@ -13,6 +15,11 @@ We refer to taking live help desk tickets as being "on ADD" and when we are work
 # Use
 In everyday use the only cell that may require an update is the below, to the users path.
 ![image](https://github.com/celestav/schedule_creator/assets/55772237/ab54c77e-753c-4483-a260-db23bf818fae)
+
+The excel linked will look like the below. Users will need to update their start and end times, as well as their shift if they have a shift or time that is different than usual.
+
+![image](https://github.com/celestav/schedule_creator/assets/55772237/937e9a28-0642-4904-8fa5-647280851b2f)
+
 
 After running the script, the output with the current Schedule_1.xlsx shows the below for the week:
 
